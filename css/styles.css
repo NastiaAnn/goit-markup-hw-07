@@ -79,6 +79,11 @@ body{
 	/* outline: 2px solid teal; */
 }
 
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
 /* ----------header-------- */
 
 .header {
@@ -197,11 +202,6 @@ body{
 
 /* -------Особливості------- */
 
-.features-work {
-	padding-top: 94px;
-	padding-bottom: 94px;
-}
-
 .features-title {}
 
 .features-list {
@@ -248,8 +248,6 @@ body{
 /* ------Команда----- */
 
 .team {
-	padding-top: 94px;
-	padding-bottom: 94px;
 	background-color: var(--second-button-color);
 }
 
@@ -259,7 +257,6 @@ body{
 }
 
 .team-list {
-	width: calc(100% - 90px) / 4;
 	display: flex;
 	list-style: none;
 }
@@ -333,8 +330,6 @@ body{
 /* --------------портфоліо--------- */
 
 .portfolio {
-	padding-top: 94px;
-	padding-bottom: 94px;
 }
 
 .portfolio-title {}
@@ -373,7 +368,6 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	width: calc(100% - 60px) / 3;
 	list-style: none;
 }
 
