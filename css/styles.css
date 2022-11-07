@@ -93,6 +93,7 @@ body{
 	display: flex;
 	height: 80px;
 	justify-content: space-between;
+	border-bottom: 1px solid #ECECEC;
 }
 
 .header-nav {
@@ -102,6 +103,10 @@ body{
 
 .header-link{
 	margin-right: 93px;
+	font-family: var(--second-font);
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	color: #000;
 }
 
 .upper-logo {
@@ -298,7 +303,13 @@ body{
 	background-color: var(--section-dark-background);
 }
 
-.footer-link {}
+.footer-link {
+	margin-right: 93px;
+	font-family: var(--second-font);
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	color: var(--first-title-color);
+}
 
 .bottom-logo{
 	color: var(--first-title-color);
@@ -321,9 +332,19 @@ body{
 	color: var(--first-title-color);
 }
 
+.address-map:hover,
+.address-map:focus {
+	color: var(--main-accent-color)
+}
+
 .address-link {
 	line-height: calc(24 / 14);
 	color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+	color: var(--main-accent-color)
 }
 
 
@@ -372,7 +393,6 @@ body{
 }
 
 .portfolio-item {
-	border: 1px solid #eeee;
 	max-width: 370px;
 }
 
@@ -380,13 +400,14 @@ body{
 	text-decoration: none;
 }
 
-.portf-img {
-	margin-bottom: 20px;
-}
-
 .portf-mrg{
-	margin-right: 24px;
-	margin-left: 24px;
+	padding-top: 20px;;
+	padding-right: 24px;
+	padding-bottom: 20px;
+	padding-left: 24px;
+	border-right: 1px solid #eeee;
+	border-bottom: 1px solid #eeee;
+	border-left: 1px solid #eeee;
 }
 .portfolio-subtitle {
 	margin-bottom: 4px;
@@ -398,7 +419,6 @@ body{
 }
 
 .portfolio-text {
-	margin-bottom: 20px;
 	font-size: 16px;
 	line-height: 30px;
 	color: var(--main-text-color);
