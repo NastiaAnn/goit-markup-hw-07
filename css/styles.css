@@ -87,13 +87,13 @@ body{
 /* ----------header-------- */
 
 .header {
+	border-bottom: 1px solid #ECECEC;
 }
 
 .header-div{
 	display: flex;
 	height: 80px;
 	justify-content: space-between;
-	border-bottom: 1px solid #ECECEC;
 }
 
 .header-nav {
@@ -211,7 +211,6 @@ body{
 
 .features-list {
 	display: flex;
-	margin-bottom: 94px;
 	list-style: none;
 }
 
@@ -233,6 +232,10 @@ body{
 .features-text {
 	line-height: calc(24 / 14);
 	color: var(--main-text-color);
+}
+
+.work{
+	margin-bottom: 94px;
 }
 
 .work-title {
