@@ -232,7 +232,9 @@ body{
 
 /* -------Особливості------- */
 
-.features-title {}
+.features-title {
+	font-size: 14px;
+}
 
 .features-list {
 	display: flex;
@@ -248,10 +250,12 @@ body{
 }
 
 .icon-bgr {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
-	padding: 25px 100px;
 	background-color: #F5F4FA;
 }
 
@@ -336,10 +340,9 @@ body{
 .team-link-list {
 	list-style: none;
 	display: flex;
+	justify-content: center;
 	margin-top: 16px;
 	gap: 10px;
-	margin-left: 32px;
-	margin-right: 32px;
 }
 
 .team-link-item {
@@ -433,13 +436,14 @@ body{
 /* ------footer----- */
 
 .footer {
-	height: 252px;
+	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: var(--section-dark-background);
 }
 
 .footer-container{
 	display: flex;
+	align-items: baseline;
 }
 .footer-link {
 	margin-right: 93px;
@@ -454,7 +458,6 @@ body{
 }
 
 .address-container{
-	margin-top: 60px;
 	margin-right: 70px;
 }
 
@@ -491,8 +494,6 @@ body{
 }
 
 .join{
-	margin-top: 72px;
-
 }
 
 .join-text {
