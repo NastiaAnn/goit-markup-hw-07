@@ -532,7 +532,7 @@ body{
 }
 
 .join{
-	margin-right: 93px;
+	margin-right: auto;
 }
 
 .join-text {
@@ -849,6 +849,7 @@ body{
 	margin-bottom: 4px;
 }
 .recall-wrap{
+	display: block;
 	position: relative;
 }
 .recall-input {
@@ -856,13 +857,15 @@ body{
 	height: 40px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
-	padding-left: 42px;
+	padding-left: 41px;
 	color: var(--section-dark-background);
 
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .recall-icon{
+	width: 18px;
+	height: 18px;
 	position: absolute;
 	top: 11px;
 	left: 12px;
