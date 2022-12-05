@@ -11,35 +11,35 @@
 		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 		rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/main.min.css">
 	<title>Студія</title>
 </head>
 
 <body>
-	<!-- /заголовок -->
+	
 	<header class="header">
 		<div class="container header-div">
 			<nav class="header-nav">
-				<a href="./index.html" lang="en" class="header-link link">
-					<span class="logo-text">Web</span>Studio</a>
-				<ul class="header-list">
-					<li class="header-list-item"><a href="#" class="header-item link current">Студія</a></li>
-					<li class="header-list-item"><a href="./portfolio.html" class="header-item link">Портфоліо</a></li>
-					<li class="header-list-item"><a href="#" class="header-item link">Контакти</a></li>
+				<a href="./index.html" lang="en" class="header-nav__link link">
+					<span class="header-nav__logo logo-text">Web</span>Studio</a>
+				<ul class="header-nav__list">
+					<li class="header-nav__item"><a href="#" class="header-nav__page link current">Студія</a></li>
+					<li class="header-nav__item"><a href="./portfolio.html" class="header-nav__page link">Портфоліо</a></li>
+					<li class="header-nav__item"><a href="#" class="header-nav__page link">Контакти</a></li>
 				</ul>
 			</nav>
-			<ul class="header-contacts">
-				<li class="header-contacts-item">
-					<a href="mailto:info@devstudio.com" lang="en" class="header-contacts-link link">
-						<svg class="header-icon" width="16" height="12">
+			<ul class="contacts">
+				<li class="contacts__item">
+					<a href="mailto:info@devstudio.com" lang="en" class="contacts__link link">
+						<svg class="contacts__icon" width="16" height="12">
 							<use href=".//images/icons.svg#icon-mail"></use>
 						</svg>
 						info@devstudio.com
 					</a>
 				</li>
-				<li class="header-contacts-item">
-					<a href="tel:++380961111111" class="header-contacts-link link">
-						<svg class="header-icon" width="10" height="16">
+				<li class="contacts__item">
+					<a href="tel:++380961111111" class="contacts__link link">
+						<svg class="contacts__icon" width="10" height="16">
 							<use href=".//images/icons.svg#icon-phone"></use>
 						</svg>
 						+38 096 111 11 11</a>
@@ -52,8 +52,8 @@
 		<!-- Герой -->
 		<section class="hero">
 			<div class="container">
-				<h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-				<button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+				<h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+				<button type="button" class="hero__btn" data-modal-open>Замовити послугу</button>
 			</div>
 		</section>
 
@@ -285,46 +285,46 @@
 
 		<section class="clients section">
 			<div class="container">
-				<h2 class="clients-title">Постійні клієнти</h2>
-				<ul class="clients-list">
-					<li class="client-item">
-						<a href="#" class="client-link" target="_blank" rel="noopener noreferrer">
-							<svg class="client-icon" width="106" height="60">
+				<h2 class="clients__title">Постійні клієнти</h2>
+				<ul class="clients__list">
+					<li class="client__item">
+						<a href="#" class="client__link" target="_blank" rel="noopener noreferrer">
+							<svg class="client__icon" width="106" height="60">
 								<use href="./images/icons.svg#icon-Logo1"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="client-item">
-						<a href="#" class="client-link" target="_blank" rel="noopener noreferrer">
-							<svg class="client-icon" width="106" height="60">
+					<li class="client__item">
+						<a href="#" class="client__link" target="_blank" rel="noopener noreferrer">
+							<svg class="client__icon" width="106" height="60">
 								<use href="./images/icons.svg#icon-Logo2"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="client-item">
-						<a href="#" class="client-link" target="_blank" rel="noopener noreferrer">
-							<svg class="client-icon" width="106" height="60">
+					<li class="client__item">
+						<a href="#" class="client__link" target="_blank" rel="noopener noreferrer">
+							<svg class="client__icon" width="106" height="60">
 								<use href="./images/icons.svg#icon-Logo3"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="client-item">
-						<a href="#" class="client-link" target="_blank" rel="noopener noreferrer">
-							<svg class="client-icon" width="106" height="60">
+					<li class="client__item">
+						<a href="#" class="client__link" target="_blank" rel="noopener noreferrer">
+							<svg class="client__icon" width="106" height="60">
 								<use href="./images/icons.svg#icon-logo4"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="client-item">
-						<a href="#" class="client-link" target="_blank" rel="noopener noreferrer">
-							<svg class="client-icon" width="106" height="60">
+					<li class="client__item">
+						<a href="#" class="client__link" target="_blank" rel="noopener noreferrer">
+							<svg class="client__icon" width="106" height="60">
 								<use href="./images/icons.svg#icon-Logo5"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="client-item">
-						<a href="#" class="client-link" target="_blank" rel="noopener noreferrer">
-							<svg class="client-icon" width="106" height="60">
+					<li class="client__item">
+						<a href="#" class="client__link" target="_blank" rel="noopener noreferrer">
+							<svg class="client__icon" width="106" height="60">
 								<use href="./images/icons.svg#icon-Logo6"></use>
 							</svg>
 						</a>
