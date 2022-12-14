@@ -52,12 +52,11 @@ body {
 }
 
 .container {
-  width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  /* outline: 2px solid teal; */
+  outline: 2px solid teal;
 }
 
 .logo-text {
@@ -74,8 +73,14 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .backdrop {
@@ -791,7 +796,6 @@ body {
 }
 
 .clients__list {
-  display: flex;
   gap: 30px;
   list-style: none;
 }
