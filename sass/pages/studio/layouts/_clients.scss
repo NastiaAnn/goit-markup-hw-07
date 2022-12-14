@@ -3,22 +3,35 @@
 
 .clients__title {
 	font-weight: 700;
-	font-size: 36px;
-	line-height: calc(42 / 36);
+	font-size: 28px;
+	line-height: calc(33 / 28);
 	text-align: center;
 	color: var(--main-heading-color);
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	@media screen and (min-width:1200px) {
+		font-size: 36px;
+		line-height: calc(42 / 36);
+		margin-bottom: 50px;
+	}
 }
 
 .clients__list {
-	// display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 30px;
 	list-style: none;
 }
 
 .client__item {
-	width: 170px;
+	width: 210px;
 	height: 92px;
+	@media screen and (min-width: 768px) {
+		width: 226px;
+	}
+	@media screen and (min-width: 1200px){
+		width: 170px;
+	}
 }
 
 .client__link {

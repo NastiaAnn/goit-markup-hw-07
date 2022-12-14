@@ -1,12 +1,13 @@
 @import './base/reset';
+@import './base/no-scroll';
 
 @import './utils/vars';
 @import './utils/hide';
+@import './utils/mixin';
 
 @import './components/body';
 @import './components/container';
 @import './components/logo-text';
-@import './components/section-title';
 @import './components/section';
 @import './components/modal';
 
