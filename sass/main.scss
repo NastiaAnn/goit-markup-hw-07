@@ -1,5 +1,4 @@
 @import './base/reset';
-@import './base/no-scroll';
 
 @import './utils/vars';
 @import './utils/hide';
@@ -13,6 +12,7 @@
 
 @import './pages/common/layouts/header';
 @import './pages/common/layouts/footer';
+@import './pages/common/layouts/header-menu';
 
 @import './pages/studio/layouts/hero';
 @import './pages/studio/layouts/features';

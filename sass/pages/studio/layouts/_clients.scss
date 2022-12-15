@@ -8,7 +8,7 @@
 	text-align: center;
 	color: var(--main-heading-color);
 	margin-bottom: 30px;
-	@media screen and (min-width:1200px) {
+	@include desktop{
 		font-size: 36px;
 		line-height: calc(42 / 36);
 		margin-bottom: 50px;
@@ -26,10 +26,10 @@
 .client__item {
 	width: 210px;
 	height: 92px;
-	@media screen and (min-width: 768px) {
+	@include tablet{
 		width: 226px;
 	}
-	@media screen and (min-width: 1200px){
+	@include desktop{
 		width: 170px;
 	}
 }

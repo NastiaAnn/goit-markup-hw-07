@@ -6,7 +6,12 @@
 }
 
 .portfolio-item {
-	max-width: 370px;
+	@include tablet{
+		width: calc((100% - 30px) / 2);
+	}
+	@include desktop{
+		width: calc((100% - 60px) / 3);
+	}
 }
 
 .portfolio-link {
@@ -19,11 +24,22 @@
 	.portfolio-link:focus &{
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 	}
+	@media screen and (max-width: 1199px) {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
 }
 
 .prtfl-wrap {
 	position: relative;
 	overflow: hidden;
+}
+
+.portfl-image {
+	display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .prtfl-bgr-text {
@@ -56,6 +72,9 @@
 	border-right: 1px solid #eeee;
 	border-bottom: 1px solid #eeee;
 	border-left: 1px solid #eeee;
+	@media screen and (max-width: 1199px) {
+		flex-grow: 1;
+	}
 }
 .portfolio-subtitle {
 	margin-bottom: 4px;
